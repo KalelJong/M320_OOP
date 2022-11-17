@@ -14,7 +14,22 @@ public class D1 {
         System.out.println("Set your min temperature");
         int min = scan.nextInt();
 
-        Thermostat thermo = new Thermostat(min, max);
+        System.out.println("Set Temperature? Yes [y] No []");
+        String setTemperature = scan.next();
+
+        Thermostat thermo;
+
+        if (setTemperature.equals("y"))
+        {
+            System.out.println("Set your temperature");
+            int temperature = scan.nextInt();
+
+            thermo = new Thermostat(temperature, min, max);
+        }
+        else
+        {
+            thermo = new Thermostat(min, max);
+        }
 
         while (true)
         {

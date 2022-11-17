@@ -8,16 +8,32 @@ public class Thermostat {
 
     public Thermostat(int min, int max) {
         this.temperature = 15;
-        this.min = min;
-        this.max = max;
         this.increment = 0;
+        if (differencMinMax(min, max)) {
+            this.min = min;
+            this.max = max;
+        }
+        else {
+            this.min = 15;
+            this.max = 15;
+        }
     }
 
     public Thermostat(int temperature, int min, int max) {
         this.temperature = temperature;
-        this.min = min;
-        this.max = max;
         this.increment = 0;
+        if (differencMinMax(min, max)) {
+            this.min = min;
+            this.max = max;
+        }
+        else {
+            this.min = 15;
+            this.max = 15;
+        }
+    }
+
+    private boolean differencMinMax(int min, int max){
+        return min <= max;
     }
 
     public void changeTemperature(int increment){
