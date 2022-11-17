@@ -23,7 +23,10 @@ public class Thermostat {
     public void changeTemperature(int increment){
         if (!(temperature + increment > max || temperature + increment < min)) {
             this.temperature += increment;
+            return;
         }
+
+        System.out.println("Value exceeds the max or min temperature. No changes.");
     }
 
     public int getIncrement() {
