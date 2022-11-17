@@ -9,7 +9,7 @@ public class Thermostat {
     public Thermostat(int min, int max) {
         this.temperature = 15;
         this.increment = 0;
-        if (differencMinMax(min, max)) {
+        if (differenceMinMax(min, max)) {
             this.min = min;
             this.max = max;
         }
@@ -22,7 +22,7 @@ public class Thermostat {
     public Thermostat(int temperature, int min, int max) {
         this.temperature = temperature;
         this.increment = 0;
-        if (differencMinMax(min, max)) {
+        if (differenceMinMax(min, max)) {
             this.min = min;
             this.max = max;
         }
@@ -32,7 +32,7 @@ public class Thermostat {
         }
     }
 
-    private boolean differencMinMax(int min, int max){
+    private boolean differenceMinMax(int min, int max){
         return min <= max;
     }
 
