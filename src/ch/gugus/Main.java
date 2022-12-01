@@ -1,6 +1,7 @@
 package ch.gugus;
 
 import ch.gugus.d1_thermostat.D1;
+import ch.gugus.v1_blockbuster.V1;
 
 import java.io.InputStream;
 import java.util.Locale;
@@ -18,6 +19,8 @@ public class Main {
                 case "d1":
                     new D1().run();
                     break;
+                case "v1":
+                    new V1().run();
                 case "q":
                     return;
                 default:
