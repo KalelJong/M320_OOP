@@ -1,8 +1,8 @@
 package ch.gugus.v2_football;
 
 public class Goalie extends Player {
-    double KoerperGroesse;
-    int HeldBalls;
+    double koerperGroesse;
+    int heldBalls;
 
     public Goalie(String name) {
         super(name);
@@ -10,18 +10,18 @@ public class Goalie extends Player {
 
     @Override
     public int getRoleSeasonData() {
-        return HeldBalls;
+        return heldBalls;
     }
 
     public void setHeldBalls(int heldBalls) {
-        this.HeldBalls = heldBalls;
+        this.heldBalls = heldBalls;
     }
 
     public double getKoerperGroesse() {
-        return KoerperGroesse;
+        return koerperGroesse;
     }
 
     public void setKoerperGroesse(double koerperGroesse) {
-        this.KoerperGroesse = koerperGroesse;
+        this.koerperGroesse = koerperGroesse;
     }
 }

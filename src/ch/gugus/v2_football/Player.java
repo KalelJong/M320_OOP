@@ -1,10 +1,10 @@
 package ch.gugus.v2_football;
 
 public class Player {
-    String Name;
+    String name;
 
     public Player(String name) {
-        Name = name;
+        this.name = name;
     }
 
     public int getRoleSeasonData() {
@@ -12,10 +12,10 @@ public class Player {
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 }

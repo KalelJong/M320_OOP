@@ -1,7 +1,7 @@
 package ch.gugus.v2_football;
 
 public class Defender extends Player {
-    int DefendedLine;
+    int defendedLine;
 
     public Defender(String name) {
         super(name);
@@ -9,10 +9,10 @@ public class Defender extends Player {
 
     @Override
     public int getRoleSeasonData() {
-        return DefendedLine;
+        return defendedLine;
     }
 
     public void setDefendedLine(int defendedLine) {
-        this.DefendedLine = defendedLine;
+        this.defendedLine = defendedLine;
     }
 }

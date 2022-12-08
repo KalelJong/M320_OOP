@@ -1,7 +1,7 @@
 package ch.gugus.v2_football;
 
 public class Attacker extends Player {
-    int SpeedInMpS;
+    int speedInMpS;
 
     public Attacker(String name) {
         super(name);
@@ -9,10 +9,10 @@ public class Attacker extends Player {
 
     @Override
     public int getRoleSeasonData() {
-        return SpeedInMpS;
+        return speedInMpS;
     }
 
     public void setSpeedInMpS(int speedInMpS) {
-        SpeedInMpS = speedInMpS;
+        this.speedInMpS = speedInMpS;
     }
 }
