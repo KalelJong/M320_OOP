@@ -1,12 +1,19 @@
 package ch.gugus.v2_football;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Team {
-      List<Player> team;
+    ArrayList<Player> PlayerList;
 
-    public Team(List<Player> team){
-        this.team = team;
+    public Team(ArrayList<Player> playerList) {
+        PlayerList = playerList;
+    }
+
+    public ArrayList<Player> getPlayerList() {
+        return PlayerList;
+    }
+
+    public void setPlayerList(ArrayList<Player> playerList) {
+        PlayerList = playerList;
     }
 }
