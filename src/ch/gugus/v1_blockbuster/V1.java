@@ -18,7 +18,6 @@ public class V1 {
 
         while (true){
             String extraProperty = "";
-            String path = "ch.gugus.v1+";
             for (var media : mediaList) {
                 if (media.getClass() == DVD.class){
                     DVD dvd1 = (DVD) media;
