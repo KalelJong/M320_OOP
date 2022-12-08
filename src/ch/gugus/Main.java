@@ -2,6 +2,7 @@ package ch.gugus;
 
 import ch.gugus.d1_thermostat.D1;
 import ch.gugus.v1_blockbuster.V1;
+import ch.gugus.v2_football.V2;
 
 import java.io.InputStream;
 import java.util.Locale;
@@ -21,6 +22,10 @@ public class Main {
                     break;
                 case "v1":
                     new V1().run();
+                    break;
+                case "v2":
+                    new V2().run();
+                    break;
                 case "q":
                     return;
                 default:
