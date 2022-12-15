@@ -14,7 +14,7 @@ public class Student {
         tests.add(test);
     }
 
-    public float getTestAvg(){
+    public float getTestsAvg(){
        float sumOfGrades = 0.0f;
         for (Test test:
              tests) {
