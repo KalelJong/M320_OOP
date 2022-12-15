@@ -10,6 +10,6 @@ public class Test {
     }
 
     public float calculateGrades(){
-        return (achievedPoints * 5 / totalPoints) + 1;
+        return ((achievedPoints * 5) / totalPoints) + 1;
     }
 }
