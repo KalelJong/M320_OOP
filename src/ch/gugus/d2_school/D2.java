@@ -4,7 +4,13 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * @author Zakria Samma
+ */
 public class D2 {
+    /**
+     * Method that is called by the Main class to run the task
+     */
     public void run(){
         Student kalel = new Student("Kalel");
         Student zakria = new Student("Zakria");

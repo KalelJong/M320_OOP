@@ -2,6 +2,7 @@ package ch.gugus;
 
 import ch.gugus.d1_thermostat.D1;
 import ch.gugus.d2_school.D2;
+import ch.gugus.d3_tree.D3;
 import ch.gugus.v1_blockbuster.V1;
 import ch.gugus.v2_football.V2;
 
@@ -9,6 +10,9 @@ import java.io.InputStream;
 import java.util.Locale;
 import java.util.Scanner;
 
+/**
+ * @author Kalel TBZ
+ */
 public class Main {
 
     public static void main(String[] args) {
@@ -29,6 +33,8 @@ public class Main {
                     break;
                 case "d2":
                     new D2().run();
+                case "d3":
+                    new D3().run();
                 case "q":
                     return;
                 default:
