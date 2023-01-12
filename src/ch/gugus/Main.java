@@ -5,6 +5,7 @@ import ch.gugus.d2_school.D2;
 import ch.gugus.d3_tree.D3;
 import ch.gugus.v1_blockbuster.V1;
 import ch.gugus.v2_football.V2;
+import ch.gugus.v3_portfolio.V3;
 
 import java.io.InputStream;
 import java.util.Locale;
@@ -33,8 +34,13 @@ public class Main {
                     break;
                 case "d2":
                     new D2().run();
+                    break;
                 case "d3":
                     new D3().run();
+                    break;
+                case "v3":
+                    new V3().run();
+                    break;
                 case "q":
                     return;
                 default:
