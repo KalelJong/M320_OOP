@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"ch.gugus.d2_school","l":"Class"},{"p":"ch.gugus.d2_school","l":"D2"},{"p":"ch.gugus.d2_school","l":"Student"},{"p":"ch.gugus.d2_school","l":"Test"}];updateSearchResults();
